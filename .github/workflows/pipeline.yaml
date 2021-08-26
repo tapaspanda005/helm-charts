@@ -2,7 +2,7 @@ name: Pages Pipeline
 
 on:
   push:
-    branches: [master]
+    branches: [master,main]
 
 jobs:
   deploy-to-staging:
